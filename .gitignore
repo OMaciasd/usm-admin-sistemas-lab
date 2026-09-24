@@ -1,0 +1,27 @@
+# Lab artifacts
+*.log
+*.dump
+*.pcap
+*.vmdk
+*.ova
+*.qcow2
+*.iso
+
+# Environment specifics
+/.vagrant
+/.dockerinit
+
+# Python/pip
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Git
+/.git/
+
+# IDE
+/.vscode/
+/.tmux/
+
+# OpsAuto references (should not be in this lab)
+/opsauto
