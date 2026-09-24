@@ -7,6 +7,33 @@
 *.qcow2
 *.iso
 
+# Agent scratch files
+/PLAN.md
+/TODO.md
+/TASKS.md
+/NOTES.md
+/SCRATCH.md
+
+# Generated auxiliary outputs
+*.tmp
+*.swp
+*.bak
+*.cache
+*.out
+*.coverage
+/generated/
+/output/
+/build/
+/dist/
+/coverage/
+/artifacts/
+/reports/
+/scratch/
+/tmp/
+/.agent/
+/.opencode/
+/.claude/
+
 # Environment specifics
 /.vagrant
 /.dockerinit
